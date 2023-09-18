@@ -23,4 +23,4 @@ if __name__ == '__main__':
 
     """
     scraper = createScraper(market_name, product_name)
-    scraper.scrape_marketplace(num_pages_to_scrap=2)
+    scraper.scrape_marketplace()

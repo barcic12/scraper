@@ -2,7 +2,7 @@ from scraper.scraperFactory import createScraper
 
 # This argument would be given by the user
 market_name = "ebay"
-product_name = "iphone"
+product_name = "rolex"
 
 if __name__ == '__main__':
     """

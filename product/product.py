@@ -71,8 +71,6 @@ class Product(object):
     Raises:
         Exception: If an error occurs while saving the JSON file.
 
- 
-
     """
         concrete_class = self.__class__
         file_name = f"{concrete_class.market_name}_{self.id}" 

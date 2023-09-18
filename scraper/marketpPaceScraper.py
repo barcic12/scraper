@@ -123,10 +123,6 @@ class MarketPlaceScraper(ABC):
         Args:
             items_URLs (list): List of item URLs to retrieve data for.
 
-        Example:
-            Given a list of item URLs, this method creates product objects, populates them with data,
-            and saves the data as JSON files for further analysis.
-
         """
         for product_url in items_URLs:
             product = self.create_product(product_url)

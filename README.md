@@ -6,20 +6,20 @@
 To create a scraper instance for a particular marketplace, follow these steps:
 from scraperFactory import ScraperFactory, EbayScraperFactory
 
-# Define the marketplace and product name
+Define the marketplace and product name:
 
 marketplace_name = "ebay"
 product_name = "rolex"
 
-# Create a scraper factory instance for eBay
+Create a scraper factory instance for eBay:
 
 factory = EbayScraperFactory(product_name)
 
-# Use the factory to create a scraper instance
+Use the factory to create a scraper instance:
 
 scraper = factory.create_scraper()
 
-# Scraping configuration
+Scraping configuration:
 
 num_pages_to_scrap = optional
 num_items_per_page = optional

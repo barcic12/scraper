@@ -71,9 +71,7 @@ class Product(object):
     Raises:
         Exception: If an error occurs while saving the JSON file.
 
-    Example:
-        Given an item name, this method creates a folder for that item and saves the product's
-        attributes as a JSON file within that folder.
+ 
 
     """
         concrete_class = self.__class__
